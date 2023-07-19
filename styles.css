@@ -1,0 +1,70 @@
+body{
+  font-family: 'Roboto Slab', serif;
+}
+
+.container{
+  background-color: #05b442;
+  border: 8px solid #016a26;
+  height: 500px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column ;
+
+}
+
+.item{
+  width: 70px;
+  margin: 2px;
+  padding: 10px;
+  font-size: 50px;
+  border: 2px solid black;
+  background: linear-gradient(#14463d , #016a26);
+
+}
+
+.item:hover{
+  width: 200px;
+  text-align: center;
+  transition: 0.8s;
+  
+  cursor: grab;
+}
+
+
+.pret{
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.0);
+  margin: 0px auto;
+  padding: auto;
+  
+}
+
+.model{
+  height: 20px;
+  width: 200px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.0);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: auto;
+  display: flex;
+}
+
+.container:hover{
+  .item:hover{
+    .pret{
+    color: white;
+    transition: 1s;
+    font-size: 15px;
+  }
+    .model{
+      color: white;
+      transition: 0.9s;
+      font-size: 12px;
+      
+    }
+}
+  
+
